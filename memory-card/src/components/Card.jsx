@@ -12,7 +12,7 @@ const Card = ({ card, onClick }) => {
         className="h-90 w-full object-cover"
       />
 
-      <h3 className="p-4 text-xl font-bold text-gray-800 text-center mask-linear-from-neutral-900"  >
+      <h3 className="p-4 text-xl font-bold text-center"  >
         {card.name}
       </h3>
     </div>
