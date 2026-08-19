@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import CardList from "./components/CardList";
 import Scoreboard from "./components/Scoreboard";
 import cardsData from "./data/cards";
@@ -41,9 +40,9 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-green-700">
+    <div className="min-h-screen bg-linear-to-br from-blue-900 via-green-700 to-yellow-500">
       <header className="bg-green-700/40 px-6 py-8 text-center text-white">
-        <h1 className="text-4xl font-bold text-amber-400 font-stretch-20%  mask-linear-from-neutral-950 shadow-2xl">
+        <h1 className="bg-linear-to-r from-amber-300 via-yellow-400 to-orange-500 bg-clip-text text-4xl font-bold text-transparent">
           Memory Card Game
         </h1>
 
